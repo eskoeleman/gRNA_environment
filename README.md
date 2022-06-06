@@ -1,6 +1,6 @@
 # gRNA_environment
 
-R scripts for the analysis of the environment around a genomic location based on a combination of datasets. 
+R scripts for the analysis of the environment around a genomic location based on a combination of datasets. These scripts can be used to obtain information on a number of characteristics of the environment of a number of genomic locations of interest. For example when selecting gRNAs for genome editing, these scripts can be used to select gRNAs based on specific marks. This script has been used to select 6 pools of 10 CRISPR RNAs in distinct chromatin environments based on the included characteristics. 
 
 cell-type: hTERT RPE-1 cells
 
@@ -33,7 +33,7 @@ rtracklayer, Gviz, ggplot2, reshape2, dplyr, ggsci, genomation, chromoMap, BSgen
 - User-defined window of interest around the break-site (eg 4 kb) for which analysis will be performed.
 
 #### Output
-- Multiple tables, one for each characteristic, containing information for each gRNA from the input-file around the break site (long-format). 
+- Multiple tables, one for each characteristic, containing information for each gRNA from the input-file around the break site (long format). 
   - "1.DNaseI_hypersensitivity.txt"
   - "2.DAMID.txt"
   - "3.chromHMM_score.txt"
